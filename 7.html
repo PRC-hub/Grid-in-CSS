@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+</head>
+<style>
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,225px);
+        gap: 20px;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    .photo1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .photo2{
+        grid-row-start:1;
+        grid-row-end:3;
+    }
+    .photo3{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .photo4{
+        grid-row-start:2 ;
+        grid-row-end:4 ;
+    }
+    .photo5{
+        grid-row-start:3 ;
+        grid-row-end: 4;
+    }
+    .photo6{
+        grid-row-start: 2;
+        grid-row-end:4 ;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="gallery">
+        <div class="photo1">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="photo 1">
+        </div>
+        <div class="photo2">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" alt="photo 2">
+        </div>
+        <div class="photo3">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" alt="photo 3">
+        </div
+            >
+        <div class="photo4 ">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" alt="photo 4">
+        </div
+            >
+        <div class="photo5">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="photo 5">
+        </div>
+        <div class="photo6 ">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" alt="photo 6">
+        </div>
+    </div>
+</body>
+</html>

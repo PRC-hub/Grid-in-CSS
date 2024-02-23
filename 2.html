@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .content{
+        align-self: center;
+        padding:0px 30px ;
+    }
+    .image{
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    img{
+        width: 100%;
+        height: 650px;
+    }
+    .readmore{
+        background-color: black;
+        color: white;
+        margin-top: 30px;
+        width:140px;
+        height: 30px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .login{
+        justify-self: right;
+        align-self: center;
+    }
+    .login button{
+        background-color: #1ca71c;
+        color: black;
+        width:140px;
+        height: 30px;
+        border-radius: 3px;
+        border: 0px;
+        cursor: pointer;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+    }
+    .menu a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+</style>
+<body style="background-color: #ffffff;">
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/011/410/918/small/healthy-food-logo-template-vector.jpg" alt="Healthy food logo">
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="login">
+            <button>Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quos! Dicta, quod iure facere enim quam quos natus autem animi aspernatur mollitia quas? Neque reiciendis distinctio alias quam soluta velit corrupti! Ullam voluptate quasi architecto deserunt modi qui asperiores, tenetur eius nihil facere quisquam ea dolorem et repellendus. Itaque ipsa harum aliquam ea odio eligendi, autem amet minima labore quaerat consequuntur corrupti delectus eum distinctio, quam aspernatur officiis quae, sunt voluptates deserunt porro nulla voluptatum? Eveniet, rem! Quod voluptatem ipsam consequuntur, deleniti neque quam excepturi voluptates esse a maxime provident libero consequatur eos! Illo a nemo maiores accusamus, consectetur expedita.</p>
+            <button class="readmore">Read More</button>
+        </div>
+        <div class="image">
+            <img src="https://media.istockphoto.com/id/1390699669/photo/assortment-of-healthy-food-for-clean-eating-flexitarian-mediterranean-diet.jpg?s=612x612&w=0&k=20&c=riJ9OUUAPS2KEDgQh7dOpsbaoDGeRPkq1x4RRVtTucE=" alt="Healthy Food">
+        </div>
+    </div>
+</body>
+</html>

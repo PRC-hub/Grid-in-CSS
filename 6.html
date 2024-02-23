@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 6</title>
+</head>
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    h1{
+        text-align: center;
+    }
+    .timetable{
+        width: 100vw;
+        display: grid;
+        justify-content: center;
+    }
+    .content{
+        width: 98vw;
+        height: 80vh;
+        padding: 5px;
+        background-color: blue;
+        border: 2px dotted black;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+    }
+    .firsthalf{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        background-color: #c7c1c1;
+        border: 2px dotted black ;
+    }
+    .secondhalf{
+        grid-column-start: 7;
+        grid-column-end: 9;
+        background-color: #c7c1c1;
+        border: 2px dotted black ;
+    }
+    .bold{
+        font-weight: bold;
+        border: 2px dotted black;
+    }
+    .green{
+        background-color: #61b761;
+    }
+    .seagreen{
+        background-color: #92f1f3;
+        border: 2px dotted black ;
+    }
+    .row1{
+        background-color: #ea5722;
+    }
+    .day{
+        background-color: #b626b6;
+    }
+    .lunch{
+        background-color: yellow;
+    }
+    .block{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+    <h1>School Timetable</h1>
+    <div class="timetable">
+        <div class="content">
+            <div class="bold row1 block">TIME</div>
+            <div class="bold row1 block">08:00 - 09:00 AM</div>
+            <div class="bold row1 block">09:00 - 10:00 AM</div>
+            <div class="bold row1 block">10:00 - 11:00 AM</div>
+            <div class="bold row1 block">11:00 - 12:00 AM</div>
+            <div class="bold row1 block">12:00 - 02:00 PM</div>
+            <div class="bold row1 block">02:00 - 03:00 PM</div>
+            <div class="bold row1 block">03:00 - 04:00 PM</div>
+
+            <div class="bold day block">Monday</div>
+            <div class="seagreen block">English</div>
+            <div class="seagreen block">Biology</div>
+            <div class="seagreen block">Physics</div>
+            <div class="seagreen block">Chemistry</div>
+            <div class="bold lunch block">L</div>
+            <div class="secondhalf block">Chemistry lab</div>
+
+            <div class="bold day block">Tuesday</div>
+            <div class="firsthalf block">Biology Lab</div>
+            <div class="seagreen block">Physics</div>
+            <div class="seagreen block">Chemistry</div>
+            <div class="bold lunch block">U</div>
+            <div class="seagreen block">English</div>
+            <div class="seagreen block">Biology</div>
+
+            <div class="bold day block">Wednesday</div>
+            <div class="seagreen block">English</div>
+            <div class="seagreen block">Biology</div>
+            <div class="seagreen block">Physics</div>
+            <div class="seagreen block">Chemistry</div>
+            <div class="bold lunch block">N</div>
+            <div class="green bold secondhalf block">Games</div>
+
+            <div class="bold day block">Thrusday</div>
+            <div class="firsthalf block">Biology Lab</div>
+            <div class="seagreen block">Physics</div>
+            <div class="seagreen block">Chemistry</div>
+            <div class="bold lunch block">C</div>
+            <div class="seagreen block">English</div>
+            <div class="seagreen block">Biology</div>
+
+            <div class="bold day block">Friday</div>
+            <div class="seagreen block">English</div>
+            <div class="seagreen block">Biology</div>
+            <div class="seagreen block">Physics</div>
+            <div class="seagreen block">Chemistry</div>
+            <div class="bold lunch block">H</div>
+            <div class="secondhalf block">Physics Lab</div>
+
+            <div class="bold day block">Saturday</div>
+            <div class="firsthalf block">Biology Lab</div>
+            <div class="seagreen block">Physics</div>
+            <div class="seagreen block">Chemistry</div>
+            <div class="bold lunch block">Break</div>
+            <div class="green bold secondhalf block">LET OFF</div>
+        </div>
+    </div>
+</body>
+</html>
